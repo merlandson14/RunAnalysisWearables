@@ -1,0 +1,39 @@
+Code Book for Run_Analysis on Wearables
+
+
+Variables in Datasets:
+
+Subject -- Subject Identification Number
+	(was V1 from subject_train.txt and subject_test.txt)
+	(1-30)
+Activity_Label -- Activity Label
+	(was V1 from activity_train.txt and activity_test.txt)
+	1 WALKING
+	2 WALKING_USTAIRS
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING
+tGravAccMag-mean -- Gravity Acceleration mean
+	(was V214 from original 561-variable dataset)
+tGravAccMag-std -- Gravity Acceleration standard deviation
+	(was V215 from original 561-variable dataset)
+ave-tGravAccMag_mean -- Average of mean for each subject at each 	activity
+ave-tGravAccMag_std -- Average of standard deviation for each 	subject at each activity
+
+
+Other Variables in the Program:
+
+zipfileUrl -- URL of original zipped datasets
+temp -- place older for zipped data file
+subjectData -- data frame of 70% of subjects for training
+xtrainData -- data frame of the 561-variable data for training
+ytrainData -- data frame of six activities for training
+subjectTest -- data frame of 30% of subjects for testing
+xtestData -- data frame of the 561-variable data for testing
+ytestData -- data frame of six activities for testing
+trainDF -- data frame of combined subject, activities and two 	variables (mean and std) for training data
+testDF -- data frame of combined subject, activities and two variables (mean and std) for testing data
+mergedData -- data frame of combined and sorted data for both 	training and testing
+mergedDataActivity -- data frame of mergedData, regrouped by 	subject and activity
+sumMergedData -- summary table of mergedDataActivity giving 	average of mean and std for each subject at each activity
