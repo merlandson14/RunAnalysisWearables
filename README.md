@@ -10,7 +10,9 @@ Repo Files:
 
 - 'features_run_analysis_wearables.txt': List of features used in program run only.
 
-- 'wearables_mean_std.txt': Output tidy file from program with average of mean and standard deviation for time Gravity Acceleration for each subject performing each activity.
+- 'run_analysis.R': executable R program that combines raw data from training and testing datasets and takes the average of mean and standard deviation for tGravityAccMag for each subject at each activity and outputs a summary text file.
+
+- 'wearables_mean_std.txt': Output tidy file from program with average of mean and standard deviation for time Gravity Acceleration Mag for each subject performing each activity.
 
 [Other files of raw data were included in the original sets, but have been excluded for this program.]
 
