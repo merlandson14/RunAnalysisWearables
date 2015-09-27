@@ -3,7 +3,7 @@ Run_Analysis of Wearables Data for Getting and Cleaning Data class
 
 This README is taken from the full README_run_analysis_wearables.txt, also included in the repo, which was first copied from the original dataset README. The modified parts relevant to this program are included below. See full document for all descriptions of training and testing of wearables.
 
-The dataset includes the following files:
+Repo Files:
 =========================================
 
 - 'README_run_analysis_wearables.txt': Updated for program run.
