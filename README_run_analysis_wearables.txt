@@ -4,7 +4,7 @@ Version 1.0
 ================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
@@ -54,6 +54,8 @@ The dataset includes the following files:
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30, with 70 % of the voluneteers in this group. 
 
 - 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30, with 30 % of the voluneteers in this group. 
+
+- 'run_analysis.R': executable R program that combines raw data from training and testing datasets and takes the average of mean and standard deviation for tGravityAccMag for each subject at each activity and outputs a summary text file.
 
 - 'wearables_mean_std.txt': Output tidy file from program with average of mean and standard deviation for time Gravity Acceleration for each subject performing each activity.
 
