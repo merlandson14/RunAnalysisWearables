@@ -1,7 +1,7 @@
-Code Book for Run_Analysis on Wearables
+## Code Book for Run_Analysis on Wearables
 
 
-Variables in Datasets:
+# Variables in Datasets:
 
 Subject -- Subject Identification Number
 	(was V1 from subject_train.txt and subject_test.txt)
@@ -22,7 +22,7 @@ ave-tGravAccMag_mean -- Average of mean for each subject at each 	activity
 ave-tGravAccMag_std -- Average of standard deviation for each 	subject at each activity
 
 
-Other Variables in the Program:
+# Other Variables in the Program:
 
 zipfileUrl -- URL of original zipped datasets
 temp -- place older for zipped data file
